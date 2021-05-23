@@ -19,12 +19,22 @@
 <body>
     <header>
       
-        <h1>Class 1 Lab</h1>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">What we do</a></li>
+                <li><a href="">Work with us</a></li>
+            </ul>
+        </nav>
+
+
         
     </header>
 
     
     <main>
+
+        <h1>Class 1 Lab</h1>
 
        <p style="background-color:red; color: black ;"> What is your firstname and surname? </p> 
        <p style="background-color: darkblue; color: chartreuse;"> How old are you?  </p>
@@ -44,18 +54,22 @@
     <script>
     
    let userName=prompt('What is you firstname and surname');
-   console.log(userName);
+   alert('Welcome ' + userName );
+   console.log('Welcome ' + userName);
 
    let age=prompt('How old are you?');
-   console.log(age)
+   alert('Your age is ' + age + ' , we wish you a long life to live dear!');
+   console.log('Your age is ' + age + ' , we wish you a long life to live dear!');
    
    let destination=prompt('What is your dream destination to visit?');
-   console.log(destination);
+   alert('You are so close to make your dream to vist ' + destination + ' comes true');
+   console.log( 'You are so close to make your dream to vist ' + destination + ' comes true');
 
    let numberOfDestinations=prompt('How many countries did you visit before?');
-   console.log(numberOfDestinations);
+   alert('You may add another destination to your ' + numberOfDestinations + ' places..Hit OK to see!');
+   console.log('You may add another destination to your ' + numberOfDestinations + ' places..Hit OK to see!');
 
-   alert('Welcome '+ userName + ' your ' + age + ' year will be your luckiest, you will get a free ticket to visit ' + destination + ' to add another stamp on your passport and adding a new country to your ' + numberOfDestinations + ' places that you were visited')
+   alert('CONGRATS!! '+ userName + ' your ' + age + ' year will be your luckiest, you will get a free ticket to visit ' + destination + ' to add another stamp on your passport and adding a new country to your ' + numberOfDestinations + ' places that you were visited')
    
 
     </script>
