@@ -26,9 +26,9 @@
     
     <main>
 
-       <p style="background-color:red; color: black ;"> What is your first and surname? </p> 
+       <p style="background-color:red; color: black ;"> What is your firstname and surname? </p> 
        <p style="background-color: darkblue; color: chartreuse;"> How old are you?  </p>
-       <p style="background-color: #ba135d; color: #f4cca4; "> What is your favorite country to vist?  </p>
+       <p style="background-color: #ba135d; color: #f4cca4; "> What is your dream destination to vist?  </p>
        <p style="background-color: rgb(179, 187, 179);color: rgb(10, 100, 240);"> How many countries did you visit before?  </p>
 
     
@@ -43,9 +43,20 @@
 
     <script>
     
+   let userName=prompt('What is you firstname and surname');
+   console.log(userName);
 
-    
+   let age=prompt('How old are you?');
+   console.log(age)
+   
+   let destination=prompt('What is your dream destination to visit?');
+   console.log(destination);
 
+   let numberOfDestinations=prompt('How many countries did you visit before?');
+   console.log(numberOfDestinations);
+
+   alert('Welcome '+ userName + ' your ' + age + ' year will be your luckiest, you will get a free ticket to visit ' + destination + ' to add another stamp on your passport and adding a new country to your ' + numberOfDestinations + ' places that you were visited')
+   
 
     </script>
     
